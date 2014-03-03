@@ -14,12 +14,12 @@ do
   $setup_script
 done
 
-for topical_folder in `find $DOTFILES_ROOT -type d -depth 1 ! -name '.*'`
+for topical_folder in `find $DOTFILES_ROOT -type d -depth 1 ! -name '.git'`
 do
   # Add symlinks to home for each topic
   for source in `find $topical_folder -name \*.ln`
   do
-    ln -i -s $source ~/.`basename ${source%.*}`
+    ln -i -h -s $source ~/.`basename ${source%.*}`
   done
 
   # Add ZSH aliases and commands in oh-my-zsh custom folder
