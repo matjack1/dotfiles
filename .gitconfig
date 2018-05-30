@@ -1,0 +1,9 @@
+
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Matteo Giaccone
+	email = matteo@turnintocoders.it
+
+[core]
+	editor = vim
