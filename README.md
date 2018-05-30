@@ -1,21 +1,11 @@
 # matjack1's dotfiles
 
-## Organization
+## Setup
 
-In the beginning a setup.sh script will be launched for every topic that
-has one.
+These dotfiles are meant to be automatically installed by [computer](https://github.com/matjack1/computer).
 
-Each topic has its own symlink files and folders that will be linked to
-dotfiles and dotfolders in the home folder.
-
-Each topic can have .zsh files that will be added to custom ZSH
-functions in oh-my-zsh custom folder.
+For a manual install, you can follow the [original guide](https://github.com/jaagr/dots#alias).
 
 ## Inspirations
 
-[Zach Holman](https://raw.github.com/holman) 
-[dotfiles](https://github.com/holman/dotfiles) 
-for topical organization and for ideas on zsh and symlinking mechanism.
-
-[Mathias Bynens](https://github.com/mathiasbynens) for his 
-[OSX setup](https://github.com/mathiasbynens/dotfiles/blob/master/.osx)
+I'm using the [dots](https://github.com/jaagr/dots) setup, with just a bit of Git magic. Easiest thing I've found around. I like it, let's give it a shot!
