@@ -95,3 +95,6 @@ source $ZSH/oh-my-zsh.sh
 
 eval $(thefuck --alias uff)
 alias dots='git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+eval "$($HOME/.devenv/bin/devenv init -)"
